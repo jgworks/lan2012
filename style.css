@@ -213,6 +213,7 @@ ul {
 }
 
 #menu a {
+	text-decoration: none;
 }
 
 #menu ul {
@@ -221,7 +222,6 @@ ul {
 
 #menu ul li {
 	display: inline;
-	text-decoration: underline;
 	text-transform: uppercase;
 	padding: 8px 12px 8px 12px;
 	border: solid 1px #0f101d;
