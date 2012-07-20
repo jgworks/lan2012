@@ -208,16 +208,11 @@ ul {
 	padding: 0 20px 0 20px;
 	width: 938px;
 	margin: 0 0 0 0;
-	background: #0f101d;
-	border: solid 1px yellow;
+        border: solid 1px #474949;
+        background: rgba(65, 70, 70, 0.4);
 }
 
 #menu a {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: blue;
-	padding: 8px 12px 8px 12px;
-	border: solid 1px #0f101d;
 }
 
 #menu ul {
@@ -226,22 +221,25 @@ ul {
 
 #menu ul li {
 	display: inline;
-	padding: 0 8px 0 8px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	padding: 8px 12px 8px 12px;
+	border: solid 1px #0f101d;
+        font-family: Arvo, serif;
+        color: white;
+        margin-right: 1em;
 }
 
 #menu ul li.first {
-	padding-left: 0;
 }
 
-#menu ul li.active a {
-	background: yellow;
-	border: solid 1px yellow;
+#menu ul li.active {
+        background: url(images/bg.jpg);
+	border: solid 1px white;
 }
 
-#menu ul li:hover a {
-	background: yellow;
-	border: solid 1px yellow;
-	color: blue;
+#menu ul li:hover  {
+        background: url(images/bg.jpg);
 }
 
 #wrapper {
@@ -271,4 +269,9 @@ ul {
 	width: 250px;
 	margin: 0 0 0 674px;
 	padding: 0;
+}
+
+a.mailto {
+    background: left center no-repeat url(images/envelope-ws.png);
+    padding-left: 1.75em;
 }
