@@ -213,6 +213,7 @@ ul {
 }
 
 #menu a {
+	text-decoration: none;
 }
 
 #menu ul {
@@ -221,7 +222,6 @@ ul {
 
 #menu ul li {
 	display: inline;
-	text-decoration: underline;
 	text-transform: uppercase;
 	padding: 8px 12px 8px 12px;
 	border: solid 1px #0f101d;
@@ -271,7 +271,34 @@ ul {
 	padding: 0;
 }
 
+#sidebar ul li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 a.mailto {
     background: left center no-repeat url(images/envelope-ws.png);
     padding-left: 1.75em;
+}
+
+a.fb, a.gp, a.rss, a.tw {
+    padding: 30px;
+    text-decoration: none;
+}
+
+a.fb {
+    background: left center no-repeat url(images/facebook-w.png);
+    background-size: 24px;
+}
+a.gp {
+    background: left center no-repeat url(images/google-plus-w.png);
+    background-size: 24px;
+}
+a.rss {
+    background: left center no-repeat url(images/rss-w.png);
+    background-size: 24px;
+}
+a.tw {
+    background: left center no-repeat url(images/twitter-w.png);
+    background-size: 24px;
 }
