@@ -81,6 +81,11 @@ ul {
 	list-style: none;
 }
 
+.grid {
+	font-weight: bold;
+	color: white;
+}
+
 .image-list {
 	list-style: none;
 }
