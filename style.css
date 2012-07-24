@@ -307,3 +307,50 @@ a.tw {
     background: left center no-repeat url(images/twitter-w.png);
     background-size: 24px;
 }
+
+
+/* For ANTRat's boxes-over-seating-layout-image */
+.layout { position: relative; background-image: url('images/seating.png'); background-size: 922px 711px; width: 922px; height: 711px; }
+.seat,.staff,.equipment{ height: 35px; width: 42px; position: absolute; }
+.seat { background-color: red;opacity:0.3;}
+.staff { background-color: yellow; opacity: 0.4}
+.equipment { background-color: blue; opacity: 0.3}
+.row-a { top: 111px; }
+.row-b { top: 163px; }
+.row-c { top: 255px; }
+.row-d { top: 307px; }
+.row-e { top: 388px; }
+.row-f { top: 440px; }
+.column-0 { left: 75px; }
+.column-1 { left: 118px; }
+.column-2 { left: 161px; }
+.column-3 { left: 204px; }
+.column-4 { left: 247px; }
+.column-5 { left: 290px; }
+.column-6 { left: 333px; }
+.column-7 { left: 376px; }
+.column-8 { left: 488px; }
+.column-9 { left: 531px; }
+.column-a { left: 574px; }
+.column-b { left: 617px; }
+.column-c { left: 660px; }
+.column-d { left: 703px; }
+.column-e { left: 746px; }
+.column-f { left: 789px; }
+
+
+/* Staff Seats 00,01,02,03,10,11,12,13 */
+.staff-00,.staff-01,.staff-02,.staff-03 { top: 632px; }
+.staff-10,.staff-11,.staff-12,.staff-13 { top: 535px; }
+.staff-00,.staff-10 { left: 358px;}
+.staff-01,.staff-11 { left: 401px;}
+.staff-02,.staff-12 { left: 445px;}
+.staff-03,.staff-13 { left: 489px;}
+
+/* Staff seats 14,15,16,17 */
+.staff-14,.staff-16,.staff-15,.staff-17 { width: 35px; height: 45px;}
+.staff-14,.staff-15 { top: 559px; }
+.staff-16,.staff-17 { top: 605px; }
+.staff-14,.staff-16 { left: 298px; }
+.staff-15,.staff-17 { left: 560px; }
+
