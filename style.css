@@ -315,16 +315,24 @@ a.tw {
 
 /* For ANTRat's boxes-over-seating-layout-image */
 .layout { position: relative; background-image: url('images/seating.png'); background-size: 922px 711px; width: 922px; height: 711px; }
-.seat,.staff,.equipment{ height: 35px; width: 42px; position: absolute; }
+.seat,.staff,.equipment{ height: 32px; width: 42px; position: absolute; }
 .seat { background-color: red;opacity:0.3;}
 .staff { background-color: yellow; opacity: 0.4}
 .equipment { background-color: blue; opacity: 0.3}
-.row-a { top: 111px; }
-.row-b { top: 163px; }
-.row-c { top: 255px; }
-.row-d { top: 307px; }
-.row-e { top: 388px; }
-.row-f { top: 440px; }
+.row-a { top: 113px; }
+.row-b { top: 164px; }
+.row-c { top: 256.25px; }
+.row-d { top: 307.75px; }
+.row-e { top: 390px; }
+.row-f { top: 441.5px; }
+.column-0,.column-2,.column-4,.column-6,.column-8,.column-a,.column-c,.column-e,
+.staff-00,.staff-02,.staff-10,.staff-12 {
+border-radius: 15px 0px 0px 15px;
+}
+.column-1,.column-3,.column-5,.column-7,.column-9,.column-b,.column-d,.column-f,
+.staff-01,.staff-03,.staff-11,.staff-13 {
+border-radius: 0px 15px 15px 0px; 
+}
 .column-0 { left: 75px; }
 .column-1 { left: 118px; }
 .column-2 { left: 161px; }
@@ -344,17 +352,19 @@ a.tw {
 
 
 /* Staff Seats 00,01,02,03,10,11,12,13 */
-.staff-00,.staff-01,.staff-02,.staff-03 { top: 632px; }
-.staff-10,.staff-11,.staff-12,.staff-13 { top: 535px; }
+.staff-00,.staff-01,.staff-02,.staff-03 { top: 634px; }
+.staff-10,.staff-11,.staff-12,.staff-13 { top: 536px; }
 .staff-00,.staff-10 { left: 358px;}
 .staff-01,.staff-11 { left: 401px;}
 .staff-02,.staff-12 { left: 445px;}
-.staff-03,.staff-13 { left: 489px;}
+.staff-03,.staff-13 { left: 488px;}
 
 /* Staff seats 14,15,16,17 */
-.staff-14,.staff-16,.staff-15,.staff-17 { width: 35px; height: 45px;}
-.staff-14,.staff-15 { top: 559px; }
-.staff-16,.staff-17 { top: 605px; }
+.staff-14,.staff-16,.staff-15,.staff-17 { width: 32px; height: 41px;}
+.staff-14,.staff-15 { top: 562px; border-radius: 15px 15px 0px 0px;}
+.staff-15 { top: 567px; }
+.staff-16,.staff-17 { top: 605px; border-radius: 0px 0px 15px 15px;}
+.staff-17 { top: 610px; }
 .staff-14,.staff-16 { left: 298px; }
 .staff-15,.staff-17 { left: 560px; }
 
