@@ -164,6 +164,17 @@ ul {
 	border-top: 0;
 }
 
+#sponsor_page {
+
+        position: relative;
+        width: 936px;
+        background: black;
+        border: solid 1px #474949;
+        border-top: 0;
+
+
+}
+
 #page ul li {
 	padding: 12px 0 12px 0;
 	border-top: solid 1px #606060;
