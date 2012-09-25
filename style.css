@@ -169,6 +169,11 @@ ul {
         width: 936px;
 }
 
+#games_page {
+	position: relative;
+	width: 936px;
+}
+
 #page ul li {
 	padding: 12px 0 12px 0;
 	border-top: solid 1px #606060;
