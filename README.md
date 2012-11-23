@@ -1,6 +1,6 @@
-lan2012
+lan2013
 =======
 
-BHN Gaming 2012 LAN
+BHN Gaming 2013 LAN
 
-This is the website and hub for the Bright House Networks 2012 LAN event.
+This is the website and hub for the Bright House Networks 2013 LAN event.
